@@ -6,8 +6,8 @@ Example Use
 
 ```javascript
 
-var parameterID = "text";
+var elementID = "text";
 let speedMS = 100;
 
-typer(parameterID, speedMS);
+typer(elementID, speedMS);
 ```
