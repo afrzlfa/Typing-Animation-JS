@@ -1,24 +1,24 @@
-function typing(param, text)
+function typing(elementID, text)
 {
 
-    if (document.getElementById(param).innerHTML == null) {
+    if (document.getElementById(elementID).innerHTML == null) {
 
-        document.getElementById(param).innerHTML = text;
+        document.getElementById(elementID).innerHTML = text;
 
     } else {
 
-        document.getElementById(param).innerHTML += text;
+        document.getElementById(elementID).innerHTML += text;
 
     }
 
 }
 
-function typer(param, speed)
+function typer(elementID, speed)
 {
 
-    var text = document.getElementById(param).innerHTML;
+    var text = document.getElementById(elementID).innerHTML;
 
-    document.getElementById(param).innerHTML = "";
+    document.getElementById(elementID).innerHTML = "";
 
     i = 0;
 
@@ -26,7 +26,7 @@ function typer(param, speed)
 
         if (i < text.length) {
 
-            typing(param, text.charAt(i));
+            typing(elementID, text.charAt(i));
             i++;
 
         }
