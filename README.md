@@ -1,1 +1,2 @@
 
+Simple Typing Animation JS
