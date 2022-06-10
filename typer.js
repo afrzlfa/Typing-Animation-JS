@@ -1,3 +1,5 @@
+// Coded by Afrizal F.A - R&D ICWR
+
 function typing(elementID, text)
 {
 
