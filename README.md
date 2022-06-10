@@ -4,10 +4,10 @@
 
 Example Use
 
-`
+```javascript
 
-var param = "text";
+var parameterID = "text";
 let speedMS = 100;
 
-typer(param, speedMS);
-`
+typer(parameterID, speedMS);
+```
